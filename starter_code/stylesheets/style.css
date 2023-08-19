@@ -34,8 +34,12 @@ footer links grey: #454245
         display: none;
     }
 
-    #top-button {
+    #button1, #button2 {
         margin-top: 20px;
+        background-color: #540B51;
+        border: none;
+        width: 70px;
+        height: 70px;
     }
 
     .navigation {

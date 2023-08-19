@@ -77,7 +77,7 @@ footer links grey: #454245
 
     #signup-buttons button {
         margin: 5px 0;
-        height: 40px;
+        height: 45px;
         text-transform: uppercase;
     }
 
@@ -85,11 +85,8 @@ footer links grey: #454245
         background-color: #4285F4;
         display: flex;
         align-items: center;
+        justify-content: center;
         height: 50px;
-    }
-
-    .google span {
-        justify-content:flex-end;
     }
 
     .google img {
@@ -103,6 +100,21 @@ footer links grey: #454245
         color: orange;
         font-weight: bold;
     }
+
+    #hero img {
+        max-width: 150%;
+        height:auto;
+        margin-top: 10px;
+    }
+
+    #trusted p {
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    
 
 
 

@@ -8,3 +8,105 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+#top-button {
+    margin-right: 20px;
+}
+
+
+@media (max-width:2532px) {
+    body {
+        font-size: 16px;
+        margin-top: 0;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: column-reverse;align-items: flex-end;
+    }
+
+    .navigation img {
+        max-width: 25%;
+        margin-top: -9px;
+    }
+
+    .navigation ul {
+        display: none;
+    }
+
+    #top-button {
+        margin-top: 20px;
+    }
+
+    .navigation {
+        background-color: #540B51;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: #540B51;
+    }
+
+
+    h1 {
+        font-family:sans-serif;
+        font-size: 36px;
+        color: white;
+        text-align: center;
+        margin: 0;
+        padding-top: 25px;
+    }
+
+    header > div > p {
+        font-family: sans-serif;
+        color: white;
+        text-align: center;
+    }
+
+    #signup-buttons {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #signup-buttons button {
+        margin: 5px 0;
+        height: 40px;
+        text-transform: uppercase;
+    }
+
+    .google {
+        background-color: #4285F4;
+        display: flex;
+        align-items: center;
+        height: 50px;
+    }
+
+    .google span {
+        justify-content:flex-end;
+    }
+
+    .google img {
+        margin-right: 10px;
+        max-width: 25px;
+        background-color: white;
+        padding: 2px;
+    }
+
+    .highlight {
+        color: orange;
+        font-weight: bold;
+    }
+
+
+
+
+
+
+
+        
+        
+
+}

@@ -229,7 +229,7 @@ footer links grey: #454245
     }
 
     #lastsection {
-        background-color: #F3EAE2;
+        background-color: white;
     }
 
     #lastsection h3 {
@@ -262,16 +262,67 @@ footer links grey: #454245
 
     #communicate, #remote, #team-work {
         font-size: 40px;
-        color:#540B51
+        color:#540B51;
+        margin-bottom: 10px;
+
     }
 
     #communicate-text, #remote-text, #team-work-text {
         padding-left: 90px;
         padding-right: 90px;
+        margin-top: 0;
+        margin-bottom: 0;
         font-weight: bold;
         font-size: 13px;
     }
 
+    #last {
+        background-color: #540B51;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 10px;
+    }
+
+    #last h3 {
+        margin-top: 0;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        color:white;
+        text-align: center;
+
+    }
+
+    #last button {
+        display: flex;
+        flex-direction: column;
+       margin-left: 15px;
+    }
+
+    #freetrial, #salestalk {
+        text-transform: uppercase;
+        padding-top: 15px;
+        padding-left: 120px;
+        padding-right: 120px;
+        margin-bottom: 15px;
+        height: 45px;
+    }
+
+    #freetrial {
+        background-color: #540B51;
+        color: white;
+        border-style: solid;
+        border-color: white;
+        border-radius: 3px;
+    }
+
+    #salestalk {
+        color:#540B51;
+        border-style:solid;
+        border-color: #540B51;
+        border-radius: 3px;
+        margin-bottom: 40px;
+
+    }
 
 
 

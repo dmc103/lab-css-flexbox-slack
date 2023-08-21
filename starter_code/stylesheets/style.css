@@ -12,6 +12,11 @@ footer links grey: #454245
     font-family: sans-serif;
  }
 
+ ul {
+    list-style-type:none;
+    padding-left: 0;
+ }
+
 
 @media (max-width:2532px) {
     body {
@@ -68,14 +73,14 @@ footer links grey: #454245
     }
 
 
-    #signup-buttons {
+    #signup-buttons, #last-buttons {
         display: flex;
         flex-direction: column;
         margin-left: 10px;
         margin-right: 10px;
     }
 
-    #signup-buttons button {
+    #signup-buttons button, #last-buttons button {
         margin: 5px 0;
         height: 45px;
         text-transform: uppercase;
@@ -182,7 +187,7 @@ footer links grey: #454245
         margin-bottom: 0;
     }
 
-    #team p, #work p {
+    #team p, #work p, #fastertools p {
         padding-left: 15px;
         padding-right: 15px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -190,14 +195,14 @@ footer links grey: #454245
         word-spacing: 2px;
     }
 
-    #team a span, #work a span {
+    #team a span, #work a span, #fastertools a span {
         color: #4285F4;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         text-decoration: none;
         padding-left: 15px;
     }
 
-    #team img {
+    #team img, #work img {
         max-width: 100%;
         padding-top: 50px;
         padding-bottom: 50px;
@@ -212,6 +217,60 @@ footer links grey: #454245
         padding: 15px;
     }
 
+    #fastertools {
+        background-color: #F3EAE2;
+        margin-top: 0;
+
+    }
+
+    #fastertools h2 {
+        padding: 15px;
+        margin-top: 0;
+    }
+
+    #lastsection {
+        background-color: #F3EAE2;
+    }
+
+    #lastsection h3 {
+        text-align: center;
+        margin: 0;
+        padding-top: 52px;
+        padding-left: 52px;
+        padding-right: 52px;
+        padding-bottom: 20px;
+        font-size: 26px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+
+    #lastsection p {
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+
+    #slack {
+        background-color: #540B51;
+        color: white;
+    }
+
+    #sales {
+        background-color: whitesmoke;
+        color:#540B51;
+    }
+
+    #communicate, #remote, #team-work {
+        font-size: 40px;
+        color:#540B51
+    }
+
+    #communicate-text, #remote-text, #team-work-text {
+        padding-left: 90px;
+        padding-right: 90px;
+        font-weight: bold;
+        font-size: 13px;
+    }
 
 
 

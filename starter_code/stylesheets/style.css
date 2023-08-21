@@ -9,9 +9,6 @@ links blue: #2E71A6
 footer links grey: #454245
 */
 
-#top-button {
-    margin-right: 20px;
-}
 
 
 @media (max-width:2532px) {
@@ -27,31 +24,33 @@ footer links grey: #454245
 
     .navigation img {
         max-width: 25%;
-        margin-top: -9px;
+        margin-top: -40px;
+        margin-left: 18px;
+        margin-bottom: 15px;
+        display: block;
     }
+
 
     .navigation ul {
         display: none;
     }
 
     #button1, #button2 {
-        margin-top: 20px;
+        margin-top: 22px;
         background-color: #540B51;
         border: none;
         width: 70px;
         height: 70px;
+        margin-bottom: -32px;
     }
 
     .navigation {
         background-color: #540B51;
-        margin: 0;
-        padding: 0;
     }
 
     header {
         background-color: #540B51;
     }
-
 
     h1 {
         font-family:sans-serif;
@@ -68,6 +67,7 @@ footer links grey: #454245
         text-align: center;
     }
 
+
     #signup-buttons {
         display: flex;
         flex-direction: column;
@@ -83,10 +83,11 @@ footer links grey: #454245
 
     .google {
         background-color: #4285F4;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        align-items:center;
+        justify-content:center;
         height: 50px;
+        display: flex;
+        
     }
 
     .google img {
@@ -107,22 +108,60 @@ footer links grey: #454245
         margin-top: 10px;
     }
 
-    #trusted p {
+    #trusted {
         text-transform: uppercase;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 10px;
         text-align: center;
     }
 
+    #companies img {
+        max-width: 20%;
+        display: inline-block;
+        margin: 0 auto;
+        padding-bottom: 22px
+    }
+
+    #companies {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    
+    /* NASA logo */
+    #companies img:nth-child(2) {
+        height: 35px;
+        width: 40px;
+        padding-left: 17px;
+        padding-right: 17px;
+    
+    } 
+    
+    /*Target logo */
+    #companies img:nth-child(4) {
+        height: 35px;
+        width: 35px;
+        padding-left: 25px;
+        
+    }
+
+    /*NYT logo*/
+    #companies img:nth-child(5) {
+        max-width: 50%;
+        padding-right: 20px;
+        padding-left: 15px;
+        
+    }
+
+    #companies img:nth-child(6) {
+        max-width: 33%;
+        padding-right: 20px;
+        
+    }
+
     
 
 
 
-
-
-
-
-        
-        
 
 }

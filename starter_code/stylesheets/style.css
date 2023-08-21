@@ -8,7 +8,9 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
-
+ body {
+    font-family: sans-serif;
+ }
 
 
 @media (max-width:2532px) {
@@ -53,7 +55,6 @@ footer links grey: #454245
     }
 
     h1 {
-        font-family:sans-serif;
         font-size: 36px;
         color: white;
         text-align: center;
@@ -62,7 +63,6 @@ footer links grey: #454245
     }
 
     header > div > p {
-        font-family: sans-serif;
         color: white;
         text-align: center;
     }
@@ -113,6 +113,8 @@ footer links grey: #454245
         font-family: Arial, Helvetica, sans-serif;
         font-size: 10px;
         text-align: center;
+        padding-top:40px;
+        margin: 0;
     }
 
     #companies img {
@@ -159,7 +161,57 @@ footer links grey: #454245
         
     }
 
-    
+    #connected {
+        background-color: #F3EAE2;
+    }
+
+    #connectedness {
+        background-color: #F3EAE2;
+    }
+
+    #connectedness img{
+        max-width: 100%;
+    }
+
+    #team {
+        background-color: #F3EAE2;
+    }
+
+    #team h2 {
+        padding: 15px;
+        margin-bottom: 0;
+    }
+
+    #team p, #work p {
+        padding-left: 15px;
+        padding-right: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-bottom: 15px;
+        word-spacing: 2px;
+    }
+
+    #team a span, #work a span {
+        color: #4285F4;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: none;
+        padding-left: 15px;
+    }
+
+    #team img {
+        max-width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #work {
+        background-color: #F3EAE2;
+    }
+
+    #work h2 {
+        margin-top: 0;
+        padding: 15px;
+    }
+
 
 
 
